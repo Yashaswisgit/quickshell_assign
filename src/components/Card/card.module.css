@@ -1,0 +1,71 @@
+.cardContainer {
+    background-color: white;
+    width: 85%;
+    height: 110px;
+    border-radius: 10px;
+    padding: 2.5%;
+    margin: 4% auto;
+  }
+  @media (max-width: 1400px) {
+    .cardContainer {
+      height: 130px;
+    }
+  }
+  @media (max-width: 769px) {
+    .cardContainer {
+      width: 100%;
+      /* margin: 0; */
+    margin: 2% 0;
+    height: 20%;
+  
+  
+    }
+  }
+  
+  .cardContent {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  .id {
+    color: #c3c4c7;
+  }
+  .tag {
+    color: #6b6f76;
+  }
+  .userDetails {
+    display: flex;
+    justify-content: space-between;
+  }
+  .midIcon {
+    margin-right: 1%;
+  }
+  .tagRow {
+    width: 100%;
+    display: flex;
+    margin: 1.5% auto;
+  }
+  
+  .bottomIcon {
+    margin-right: 2%;
+    border: 1px solid #eaebee;
+    border-radius: 4px;
+  }
+  
+  .tagContainer {
+    width: 140px;
+    display: flex;
+    padding: 0 1%;
+    justify-content: space-around;
+    /* align-items: center; */
+    padding-top: 0.5%;
+    border: 1px solid #eaebee;
+    border-radius: 4px;
+  }
+  .circle {
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background-color: #bec2c8;
+    margin-top: 4.5%;
+  }

@@ -1,0 +1,43 @@
+.columnContainer {
+    width: 22%;
+  }
+  .columnHeader {
+    display: flex;
+    justify-content: space-between;
+    width: 92.5%;
+    margin: auto;
+    margin-bottom: 5%;
+  }
+  .headerLeft {
+    display: flex;
+    width: 100%;
+  }
+  .headerRight {
+    display: flex;
+  }
+  .padLeft {
+    padding-left: 4%;
+  }
+  .cursorPointer {
+    cursor: pointer;
+  }
+  
+  .columnContent {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  @media (max-width: 769px) {
+    .columnContainer {
+      /* width: 68%; */
+      width: 70%;
+    }
+    .columnHeader {
+      width: 100%;
+  
+      margin: 2% 0;
+    }
+    .columnContent {
+      width: 100%;
+    }
+  }
